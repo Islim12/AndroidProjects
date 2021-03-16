@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dice Roller App</string>
+    <string name="background_image"></string>
+
+    <!-- Button Names -->
+    <string name="button_roll">Zar At</string>
+    <string name="button_clean">Temizle</string>
+
+    <string name="controlText">Zar Atıldı</string>
+    <string name="diceImage"></string>
+</resources>
