@@ -4,15 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#673AB7"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+    <Button
+        android:id="@+id/pageA"
+        android:layout_width="222dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginBottom="65dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Sayfa A"
+        app:layout_constraintBottom_toTopOf="@+id/pageB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/pageB"
+        android:layout_width="222dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="208dp"
+        android:text="Sayfa B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pageA" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
